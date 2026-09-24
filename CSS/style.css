@@ -68,4 +68,77 @@
 }
 
 
+/* Banner */
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/background.jpg') no-repeat center center/cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 32px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-input {
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.search-btn {
+    background-color: rgb(255, 119, 0);
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 1.5s ease;
+
+}
+
+.search-btn i {
+    transition: color 1.5s ease;
+    color: white !important;
+}
+
+.search-btn:hover {
+    background-color: white;
+    border: 2px solid white;
+
+}
+
+.search-btn:hover i {
+    color: rgb(255, 119, 0) !important;
+}
+
+.banner h2 {
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+}
+
+.banner p {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+
  
