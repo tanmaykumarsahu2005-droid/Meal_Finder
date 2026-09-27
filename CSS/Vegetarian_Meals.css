@@ -141,4 +141,23 @@
 }
 
 
+/* Vegetarian Section */
+.veg-section{
+    background:#f4f4f4;
+    border:1px solid #e67e22;
+    padding:30px;
+    margin: 40px 15px;
+}
 
+.veg-section h3{
+    color:#e67e22;
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.veg-section p{
+    color:#666;
+    line-height:1.8;
+    font-size:15px;
+}
