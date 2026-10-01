@@ -168,6 +168,19 @@
     text-transform: uppercase;
 }
 
+.meal-breadcrumb span {
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+.meal-breadcrumb h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    font-weight: 900px;
+    margin-left: -5px;
+}
+
 .meal-breadcrumb i {
     font-size: 13px;
 }
@@ -405,14 +418,6 @@
 .meal-section:target {
     display: block;
 }
-
-
-
-
-
-
-
-
 
 
 
